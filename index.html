@@ -4,7 +4,251 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Perfume Passion</title>
+    <style>
+      body {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        background: linear-gradient(
+          109.6deg,
+          rgb(245, 239, 249) 30.1%,
+          rgb(207, 211, 236) 100.2%
+        );
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      img {
+        max-width: 100%;
+        height: 400px;
+        width: 300px;
+      }
+
+      .theme-button {
+        display: block;
+        margin: 10px auto;
+        border: 0.5px solid white;
+        font-size: 14px;
+        background: black;
+        color: white;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .theme-button:hover {
+        color: black;
+        background: white;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      footer {
+        text-align: center;
+        margin: 20px 0;
+      }
+      #footer-link {
+        text-decoration: none;
+      }
+
+      .discovery-button {
+        display: block;
+        margin: 10px auto;
+        border: 1px solid grey;
+        border-radius: 6px;
+        background: #d8daef;
+        font-size: 14px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .discovery-button:hover {
+        background: #ede9f6;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .perfume-shop {
+        display: block;
+        margin: 0 auto;
+        height: 550px;
+        width: 450px;
+        border-radius: 10px;
+        border: solid 1px black;
+        transition: all 150ms ease-in-out;
+      }
+      .perfume-shop:hover {
+        transform: scale(1.1);
+      }
+
+      .grid {
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 10px;
+        border: solid 1px black;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(1.5);
+      }
+
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgb(36, 45, 57) 11.2%,
+          rgb(16, 37, 60) 51.2%,
+          rgb(0, 0, 0) 98.6%
+        );
+        color: white;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .dark a {
+        color: plum;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <button class="theme-button">Change Theme</button>
+    <div class="container">
+      <h1>Perfumes</h1>
+      <h2>My biggest passion</h2>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/386/original/IMG_5904.jpeg?1679656913"
+        alt="laboratorio olfattivo, Roma"
+        class="perfume-shop"
+      />
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/378/original/IMG_5665.jpeg?1679656491"
+          alt="Juliette Has a Gun, Anyway"
+          class="juliette-anyway"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/376/original/IMG_R_0002.jpeg?1679656466"
+          alt="Prada, Infusion d'iris"
+          class="prada-infusiondiris"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/416/original/IMG_5646.jpeg?1679670652"
+          class="hermes-jardinsurletoit"
+          alt="Hermes, Un Jardin sur le Toit"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/381/original/IMG_4832.jpeg?1679656565"
+          alt="BDK, Rouge Smoking"
+          class="bdk-rougesmoking"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/382/original/IMG_6277.jpeg?1679656578"
+          alt="BDK, Tubereuse Imperiale"
+          class="bdk-tubereuseimperiale"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/379/original/IMG_5653.jpeg?1679656510"
+          alt="Lucien Ferrero, Seringa Blac"
+          class="lucienferrero-seringablanc"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/417/original/IMG_4913.jpeg?1679670682"
+          alt="Acqua di Parma, Mirto di Panarea"
+          class="acquadiparma-mirtodipanarea"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/387/original/IMG_6343.jpeg?1679656922"
+          alt="Maison Tahité, Carnal Cacao"
+          class="maison-carnalcacao"
+        />
+      </div>
+      <p>
+        Perfume (UK: /ˈpɜːfjuːm/, US: /pərˈfjuːm/; French: parfum) is a mixture
+        of fragrant essential oils or aroma compounds (fragrances), fixatives
+        and solvents, usually in liquid form, used to give the human body,
+        animals, food, objects, and living-spaces an agreeable scent. Perfumes
+        can be defined as substances that emit and diffuse a pleasant and
+        fragrant odor. They consist of manmade mixtures of aromatic chemicals
+        and essential oils. The 1939 Nobel Laureate for Chemistry, Leopold
+        Ružička stated in 1945 that "right from the earliest days of scientific
+        chemistry up to the present time, perfumes have substantially
+        contributed to the development of organic chemistry as regards methods,
+        systematic classification, and theory.
+      </p>
+
+      <a href="https://en.wikipedia.org/wiki/Perfume" target="_blank"
+        >Read more on Wikipedia</a
+      >
+      <br />
+      <button class="discovery-button">
+        <a
+          href="https://www.instagram.com/perfume_of_interest/"
+          target="_blank"
+          id="footer-link"
+        >
+          Discover my collection</a
+        >
+      </button>
+    </div>
+    <footer>
+      Coded by
+      <a
+        href="https://www.linkedin.com/in/francescalalli/"
+        target="_blank"
+        title="francesca professional profile"
+        id="footer-link"
+        >Francesca Lalli</a
+      >, open-sourced on
+      <a
+        href="https://github.com/Flall/SCB-Add-On-Project"
+        target="_blank"
+        title="GitHub repository"
+        id="footer-link"
+        >GitHub</a
+      >, hosted on
+      <a
+        href="https://warm-melba-caaca5.netlify.app/"
+        target="_blank"
+        title="Netlify hosting service"
+        id="footer-link"
+        >Netlify</a
+      >
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        //body.classList.toggle("dark");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
 </html>
